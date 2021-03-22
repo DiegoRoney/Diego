@@ -84,3 +84,24 @@ nav ul li a:hover {
 
 
 /**/
+
+#geral {
+    width:960px;
+    margin:0 auto;
+    background:#ddd;
+}
+#cabecalho {
+    background:#fdd;
+}
+#conteudo-1 {
+    background:#bfb;
+}
+#conteudo-2-1 {
+    background:#ddf;
+}
+#conteudo-2-2 {
+    background:#dff;
+}
+#rodape {
+    background:#ff9;
+}
