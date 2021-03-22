@@ -105,3 +105,64 @@ nav ul li a:hover {
 #rodape {
     background:#ff9;
 }
+
+#conteudo-1 {
+    float:left;
+    width:240px;
+    background:#bfb;
+}
+#conteudo-2 {
+    float:right;
+    width:720px;
+
+}
+/**/
+#conteudo-2-1 {
+    float:left;
+    width:480px;
+    background:#ddf;
+}
+#conteudo-2-2 {
+    float:right;
+    width:240px;
+    background:#dff;
+}
+/**/
+#rodape {
+    clear:both;/*posicionando o rodape abaixo das outras divs*/
+    background:#ff9;
+}
+/**/
+#cabecalho {
+    padding:10px;
+    background:#fdd;
+}
+#conteudo-1 {
+    float:left;
+     /* diminuimos a largura para não quebrar o layout. 
+      * valor antigo 220
+      */
+    width:210px;
+    padding:10px;
+    background:#bfb;
+}
+#conteudo-2-1 {
+    float:left;
+    width:460px;
+    padding:10px;
+    background:#ddf;
+}
+#conteudo-2-2 {
+    float:right;
+    /*diminuimos a largura para não quebrar o layout
+    * valor antigo 220
+    */
+    width:200px;
+    padding:10px;
+    background:#dff;
+}
+#rodape {
+    clear:both;
+    padding:10px;
+    background:#ff9;
+}
