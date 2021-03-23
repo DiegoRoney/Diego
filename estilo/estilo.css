@@ -141,28 +141,28 @@ nav ul li a:hover {
     background:#fdd;
 }
 #conteudo-1 {
+    overflow: hidden;
     float:left;
      /* diminuimos a largura para não quebrar o layout. 
       * valor antigo 220
       */
-    width:210px;
+    width:420px;
     padding:10px;
-    background:#bfb;
+    background:green;
 }
-#conteudo-2-1 {
-    float:left;
-    width:460px;
-    padding:10px;
-    background:#ddf;
+#conteudo-2 {
+    overflow: hidden;
+    float:left;    
+   width:420px;
+   padding:10px;
+   background: yellow;
 }
-#conteudo-2-2 {
-    float:right;
-    /*diminuimos a largura para não quebrar o layout
-    * valor antigo 220
-    */
-    width:200px;
+#conteudo-3 {
+    overflow: hidden;
+    float:left;    
+    width:420px;
     padding:10px;
-    background:#dff;
+    background: red;
 }
 #rodape {
     clear:both;
