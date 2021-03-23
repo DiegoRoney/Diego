@@ -98,11 +98,18 @@ nav ul li a:hover {
     padding: 10px;
     background: #fdd;
 }
+/*
+#principal {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
 
+}
+*/
 #conteudo-1 {
     overflow: hidden;
     float: left;
-    width: 420px;
+    width: 430px;
     padding: 10px;
     background: orange;
 }
@@ -110,7 +117,7 @@ nav ul li a:hover {
 #conteudo-2 {
     overflow: hidden;
     float: left;
-    width: 420px;
+    width: 430px;
     padding: 10px;
     background: yellow;
 }
@@ -118,7 +125,7 @@ nav ul li a:hover {
 #conteudo-3 {
     overflow: hidden;
     float: left;
-    width: 420px;
+    width: 430px;
     padding: 10px;
     background: orangered;
 }
