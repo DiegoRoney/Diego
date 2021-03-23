@@ -109,30 +109,30 @@ nav ul li a:hover {
 #conteudo-1 {
     overflow: hidden;
     float: left;
-    width: 430px;
+    width: 400px;
     height: 200px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     background: #2622C7;
 }
 
 #conteudo-2 {
     overflow: hidden;
     float: left;
-    width: 430px;
+    width: 400px;
     height: 200px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     background: #646394;
 }
 
 #conteudo-3 {
     overflow: hidden;
     float: left;
-    width: 430px;
+    width: 400px;
     height: 200px;
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     background: #43A0FA;
 }
 
