@@ -111,7 +111,7 @@ nav ul li a:hover {
     float: left;
     width: 430px;
     padding: 10px;
-    background: orange;
+    background: #2622C7;
 }
 
 #conteudo-2 {
@@ -119,7 +119,7 @@ nav ul li a:hover {
     float: left;
     width: 430px;
     padding: 10px;
-    background: yellow;
+    background: #646394;
 }
 
 #conteudo-3 {
@@ -127,7 +127,7 @@ nav ul li a:hover {
     float: left;
     width: 430px;
     padding: 10px;
-    background: orangered;
+    background: #43A0FA;
 }
 
 #rodape {
