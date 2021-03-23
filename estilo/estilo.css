@@ -98,14 +98,14 @@ nav ul li a:hover {
     padding: 10px;
     background: rgb(116, 116, 121);
 }
-/*
-#principal {
+
+#principal {/*isso nao ta legal*/
     overflow: hidden;
     width: 100%;
     margin: 0 auto;
 
 }
-*/
+
 #conteudo-1 {
     overflow: hidden;
     float: left;
