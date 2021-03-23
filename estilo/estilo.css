@@ -94,57 +94,12 @@ nav ul li a:hover {
     background: #ddd;
 }
 
-#cabecalho {
-    background: #fdd;
-}
-
-#conteudo-1 {
-    background: #bfb;
-}
-
-#conteudo-2-1 {
-    background: #ddf;
-}
-
-#conteudo-2-2 {
-    background: #dff;
-}
-
-#rodape {
-    background: #ff9;
-}
-
-#conteudo-1 {
-    float: left;
-    width: 240px;
-    background: #bfb;
-}
-
-#conteudo-2 {
-    float: right;
-    width: 720px;
-
-}
 
 /**/
-#conteudo-2-1 {
-    float: left;
-    width: 480px;
-    background: #ddf;
-}
 
-#conteudo-2-2 {
-    float: right;
-    width: 240px;
-    background: #dff;
-}
 
 /**/
-#rodape {
-    clear: both;
-    /*posicionando o rodape abaixo das outras divs*/
-    background: #ff9;
-}
+
 
 /**/
 #cabecalho {
@@ -155,9 +110,6 @@ nav ul li a:hover {
 #conteudo-1 {
     overflow: hidden;
     float: left;
-    /* diminuimos a largura para não quebrar o layout. 
-      * valor antigo 220
-      */
     width: 420px;
     padding: 10px;
     background: orange;
@@ -180,7 +132,8 @@ nav ul li a:hover {
 }
 
 #rodape {
+    color: white;
     clear: both;
-    padding: 10px;
+    padding: 50px;
     background: black;
 }
