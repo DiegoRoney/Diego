@@ -92,7 +92,7 @@ nav ul li a:hover {
     height: 100%;
     position: relative;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
+    color: black;
 }
 
 #cabecalho {
@@ -119,8 +119,7 @@ nav ul li a:hover {
     overflow: hidden;
     /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
     width: 30%;
-    height: 100px;
-    
+    height: 100px;    
 }
 
 #conteudo-2 {
@@ -134,6 +133,7 @@ nav ul li a:hover {
     height: 100px;
 }
 
+
 #conteudo-3 {
     overflow: hidden;
     float: left;
@@ -143,6 +143,11 @@ nav ul li a:hover {
     background: #F06201;
     width: 30%;
     height: 100px;
+}
+
+#galeria{
+    overflow: hidden;
+    float: left;
 }
 
 #rodape {
