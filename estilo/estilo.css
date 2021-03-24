@@ -156,3 +156,8 @@ nav ul li a:hover {
     padding: 50px;
     background: black;
 }
+
+/*boot*/
+.geral {
+    box-sizing: content-box;
+  }
