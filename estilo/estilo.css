@@ -89,14 +89,15 @@ nav ul li a:hover {
     overflow: hidden;
     /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
     width: 100%;
-    height: 100%;    
-    font-family: Verdana, Tahoma, sans-serif;
+    height: 100%;
+    
     color: rgb(0, 0, 0);
 }
 
 #cabecalho {
     padding: 10px;
     background: #646472;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #principal {
@@ -115,7 +116,7 @@ nav ul li a:hover {
     position: relative;
     padding: 10px;
     margin: 2px;
-    background: #F8A80C;      
+    background: #F8A80C;
     width: 32%;
     height: 150px;
     font-size: 12px;
@@ -154,8 +155,9 @@ nav ul li a:hover {
 #rodape {
     color: white;
     clear: both;
-    padding: 20px;
+    padding: 10px;
     background: black;
+    font-size: small;
 }
 
 /*boot*/
