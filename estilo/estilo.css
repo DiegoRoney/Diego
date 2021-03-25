@@ -34,7 +34,16 @@ header {
 
 /* logo */
 
-
+/*
+#icon {
+    overflow: hidden;
+    float: left;
+    position: relative; 
+    font-size: 14px;
+    padding: 10px;
+    margin: 5px;
+}
+*/
 /* menu */
 
 nav {
@@ -78,7 +87,7 @@ nav ul li a:hover {
 }
 
 #imgsobre img {
-    width: 30%;
+    width: 150px;
     position: relative;
 }
 
@@ -159,6 +168,8 @@ nav ul li a:hover {
     background: black;
     font-size: small;
 }
+
+
 
 /*boot*/
 .geral {
