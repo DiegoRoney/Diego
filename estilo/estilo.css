@@ -4,7 +4,7 @@
 }
 
 .conteiner-principal {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     color: aliceblue;
 }
 
@@ -117,7 +117,7 @@ nav ul li a:hover {
     margin: 2px;
     background: #F8A80C;      
     width: 32%;
-    height: 100px;
+    height: 150px;
     font-size: 12px;
 }
 
@@ -129,7 +129,7 @@ nav ul li a:hover {
     margin: 2px;
     background: #D97B0B;
     width: 32%;
-    height: 100px;
+    height: 150px;
     font-size: 12px;
 }
 
@@ -142,7 +142,7 @@ nav ul li a:hover {
     margin: 2px;
     background: #F06201;
     width: 32%;
-    height: 100px;
+    height: 150px;
     font-size: 12px;
 }
 
