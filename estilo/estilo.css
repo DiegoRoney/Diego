@@ -169,7 +169,9 @@ nav ul li a:hover {
     font-size: small;
 }
 
-
+#rodape img{
+    width: 50px;
+}
 
 /*boot*/
 .geral {
