@@ -178,3 +178,7 @@ nav ul li a:hover {
 .geral {
     box-sizing: content-box;
 }
+
+#geral roda {
+    box-sizing: content-box;
+}
