@@ -219,8 +219,7 @@ footer {
     grid-row-start: 2;
     grid-row-end: 3;
     background: black;
-    flex-shrink: 0;
-    /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
+    flex-shrink: 0;    
     padding: 20px;
 }
 
