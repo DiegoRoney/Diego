@@ -221,6 +221,7 @@ footer {
     background: black;
     flex-shrink: 0;    
     padding: 20px;
+    color: black;
 }
 
 footer ul {
