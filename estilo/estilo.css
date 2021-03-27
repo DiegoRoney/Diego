@@ -208,6 +208,9 @@ nav ul li a:hover {
     font-family: 'Quicksand';
 }
 
+#rodape {
+    background-color: black;
+}
 
 .h-1{
     grid-row: span 1;
