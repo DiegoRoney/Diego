@@ -166,14 +166,14 @@ nav ul li a:hover {
     height: 100px;
     margin: 0;
     padding-top: 25px;
-    background: rgb(102, 102, 102);
+    background:#EBD80C;
     float: left;
     text-align: center;
 
 }
 #link-portfolio a{
     font-size: large;
-    color: #F06201;
+    color:black ;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
