@@ -133,8 +133,8 @@ nav ul li a:hover {
     margin: 0;
     background: #F8A80C;
     width: 34%;
-    height: 150px;
-    font-size: 12px;
+    height: 200px;
+    font-size: auto;
 }
 
 #conteudo-2 {
@@ -145,8 +145,8 @@ nav ul li a:hover {
     margin: 0;
     background: #D97B0B;
     width: 33%;
-    height: 150px;
-    font-size: 12px;
+    height: 200px;
+    font-size: auto;
 }
 
 
@@ -158,27 +158,26 @@ nav ul li a:hover {
     margin: 0;
     background: #F06201;
     width: 33%;
-    height: 150px;
-    font-size: 12px;
+    height: 200px;
+    font-size: auto;
 }
 #link-portfolio {
     width: 100%;
     height: 100px;
     margin: 0;
-    padding-top: 25px;
-    background:#EBD80C;
-    float: left;
+    padding-top: 10px;
+    background:grey;    
     text-align: center;
 
 }
 #link-portfolio a{
-    font-size: large;
+    font-size: medium;
     color:black ;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #link-portfolio a:hover {
-    color: black;
+    color: darkorange;
 }
 
 
@@ -194,14 +193,7 @@ nav ul li a:hover {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*galeria
 
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-*/
 .container-galeria {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
