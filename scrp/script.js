@@ -1,7 +1,4 @@
-alert('ola!');
-let a = 8;
-let b = 5;
-let soma;
+
 //
-alert('escrever em campos reservados para string?');
+alert('site em construção');
 //ou escrever em comentarios?
