@@ -117,7 +117,7 @@ nav ul li a:hover {
 #mensagem {
     padding: 10px;
     background: #646472;
-    height: 100px;
+    height: auto;
     color: #fff;
 }
 
