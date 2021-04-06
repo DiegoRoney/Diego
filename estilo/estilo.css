@@ -130,6 +130,10 @@ nav ul li a:hover {
 
 }
 
+#principal a {
+    color: black;
+}
+
 #conteudo-1 {
     overflow: hidden;
     float: left;
