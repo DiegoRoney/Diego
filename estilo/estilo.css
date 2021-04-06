@@ -18,10 +18,11 @@ header {
     position: relative;
     top: 0;
 }
+
 body {
     display: flex;
     flex-direction: column;
-  }
+}
 
 /* logo */
 
@@ -92,7 +93,8 @@ nav ul li a:hover {
     width: 100%;
     margin-bottom: 0;
 }
-#inf{
+
+#inf {
     font-family: Arial, sans-serif;
     padding: 15px;
 }
@@ -138,12 +140,16 @@ nav ul li a:hover {
     overflow: hidden;
     float: left;
     position: relative;
-    padding: 10px;
+
     margin: 0;
     background: #F8A80C;
     width: 34%;
     height: 200px;
     font-size: auto;
+}
+
+#conteudo-1 img {
+    height: 100%;
 }
 
 #conteudo-2 {
@@ -176,13 +182,14 @@ nav ul li a:hover {
     height: 125px;
     margin: 0;
     padding-top: 10px;
-    background:grey;    
+    background: grey;
     text-align: center;
 
 }
-#link-portfolio a{
+
+#link-portfolio a {
     font-size: medium;
-    color:black ;
+    color: black;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -249,7 +256,7 @@ footer {
     grid-row-start: 2;
     grid-row-end: 3;
     background: black;
-    flex-shrink: 0;    
+    flex-shrink: 0;
     padding: 20px;
     color: white;
 }
@@ -272,6 +279,7 @@ footer img {
     margin: 0;
     line-height: 60px;
 }
+
 /*roda pe */
 
 
@@ -319,46 +327,44 @@ footer img {
 /*album*/
 
 .photo-gallery {
-    color:#313437;
-    background-color:#fff;
-    
-  }
-  
-  .photo-gallery p {
-    color:#7d8285;
-  }
-  
-  .photo-gallery h2 {
-    font-weight:bold;
-    margin-bottom:40px;
-    padding-top:40px;
-    color:inherit;
-  }
-  
-  @media (max-width:767px) {
-    .photo-gallery h2 {
-      margin-bottom:25px;
-      padding-top:25px;
-      font-size:24px;
-    }
-  }
-  
-  .photo-gallery .intro {
-    font-size:16px;
-    max-width:500px;
-    margin:0 auto 40px;
-  }
-  
-  .photo-gallery .intro p {
-    margin-bottom:0;
-  }
-  
-  .photo-gallery .photos {
-    padding-bottom:20px;
-  }
-  
-  .photo-gallery .item {
-    padding-bottom:30px;
-  }
+    color: #313437;
+    background-color: #fff;
 
-  
+}
+
+.photo-gallery p {
+    color: #7d8285;
+}
+
+.photo-gallery h2 {
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    color: inherit;
+}
+
+@media (max-width:767px) {
+    .photo-gallery h2 {
+        margin-bottom: 25px;
+        padding-top: 25px;
+        font-size: 24px;
+    }
+}
+
+.photo-gallery .intro {
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto 40px;
+}
+
+.photo-gallery .intro p {
+    margin-bottom: 0;
+}
+
+.photo-gallery .photos {
+    padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+    padding-bottom: 30px;
+}
