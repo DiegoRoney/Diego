@@ -111,15 +111,14 @@ nav ul li a:hover {
     overflow: hidden;
     /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
     width: 100%;
-    height: 100%;
-
-    color: rgb(0, 0, 0);
+    height: 100%;    
 }
 
-#cabecalho {
+#mensagem {
     padding: 10px;
     background: #646472;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100px;
+    color: #fff;
 }
 
 #principal {
@@ -144,13 +143,11 @@ nav ul li a:hover {
     margin: 0;
     background: #F8A80C;
     width: 34%;
-    height: 200px;
+    height: 300px;
     font-size: auto;
 }
 
-#conteudo-1 img {
-    height: 100%;
-}
+
 
 #conteudo-2 {
     overflow: hidden;
@@ -160,7 +157,7 @@ nav ul li a:hover {
     margin: 0;
     background: #D97B0B;
     width: 33%;
-    height: 200px;
+    height: 300px;
     font-size: auto;
 }
 
@@ -173,8 +170,17 @@ nav ul li a:hover {
     margin: 0;
     background: #F06201;
     width: 33%;
-    height: 200px;
+    height: 300px;
     font-size: auto;
+}
+#conteudo-1 img {
+    height: 100%;
+}
+#conteudo-2 img {
+    height: 100%;
+}
+#conteudo-3 img {
+    height: 100%;
 }
 
 #link-portfolio {
@@ -253,12 +259,12 @@ nav ul li a:hover {
 /*roda pe */
 
 footer {
-    grid-row-start: 2;
-    grid-row-end: 3;
+    
     background: black;
     flex-shrink: 0;
     padding: 20px;
     color: white;
+    width: 100%;
 }
 
 footer ul {
