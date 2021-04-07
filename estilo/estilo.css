@@ -116,9 +116,16 @@ nav ul li a:hover {
 
 #mensagem {
     padding: 10px;
-    background: #646472;
+    background: #969699;
     height: auto;
     color: #fff;
+}
+
+#mensagem h2{
+    color: #313437;
+}
+#mensagem h4, p{
+    color: #c3c3c3;
 }
 
 #principal {
