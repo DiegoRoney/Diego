@@ -104,8 +104,14 @@ nav ul li a:hover {
     position: relative;
 }
 
-
 /**/
+.jumbotron a{
+    color: darkgrey;
+}
+.jumbotron p{
+    color: rgb(66, 65, 65);
+}
+
 
 #geral {
     overflow: hidden;
