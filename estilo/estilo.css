@@ -78,7 +78,9 @@ nav ul li a:hover {
     color: black;
 }
 
-
+li {
+    list-style-type: none;
+  }
 /* banner */
 
 #banner {
