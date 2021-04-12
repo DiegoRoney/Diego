@@ -22,6 +22,7 @@ header {
 body {
     display: flex;
     flex-direction: column;
+    
 }
 
 /* logo */
@@ -108,10 +109,11 @@ li {
 
 /**/
 .jumbotron a{
-    color: darkgrey;
+    color: black;   
 }
+
 .jumbotron p{
-    color: rgb(66, 65, 65);
+    color: black;    
 }
 
 
@@ -154,7 +156,7 @@ li {
     position: relative;
 
     margin: 0;
-    background: #F8A80C;
+    background: #513CDB;
     width: 34%;
     height: 300px;
     font-size: auto;
@@ -168,7 +170,7 @@ li {
     position: relative;
     padding: 10px;
     margin: 0;
-    background: #D97B0B;
+    background: #3569F2;
     width: 33%;
     height: 300px;
     font-size: auto;
@@ -181,7 +183,7 @@ li {
     position: relative;
     padding: 10px;
     margin: 0;
-    background: #F06201;
+    background: #33ADE8;
     width: 33%;
     height: 300px;
     font-size: auto;
@@ -277,8 +279,11 @@ footer {
     flex-shrink: 0;
     padding: 20px;
     color: white;
-    width: 100%;
+    width: 100%;    
+    
+    
 }
+
 
 footer ul {
     float: right;
