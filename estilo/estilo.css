@@ -22,6 +22,7 @@ header {
 body {
     display: flex;
     flex-direction: column;
+    
 }
 
 /* logo */
@@ -78,7 +79,9 @@ nav ul li a:hover {
     color: black;
 }
 
-
+li {
+    list-style-type: none;
+  }
 /* banner */
 
 #banner {
@@ -106,16 +109,16 @@ nav ul li a:hover {
 
 /**/
 .jumbotron a{
-    color: darkgrey;
+    color: black;   
 }
+
 .jumbotron p{
-    color: rgb(66, 65, 65);
+    color: black;    
 }
 
 
 #geral {
-    overflow: hidden;
-    /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    overflow: hidden;    
     width: 100%;
     height: 100%;    
 }
@@ -128,7 +131,7 @@ nav ul li a:hover {
 }
 
 #mensagem h2{
-    color: #313437;
+    color:#626262;
 }
 #mensagem h4, p{
     color: #c3c3c3;
@@ -136,8 +139,7 @@ nav ul li a:hover {
 
 #principal {
     /*isso nao ta legal*/
-    overflow: hidden;
-    /* para que não tenha rolagem se a imagem de fundo for maior que a tela */
+    overflow: hidden;   
     width: 100%;
     height: 100%;
     position: relative;
@@ -154,7 +156,7 @@ nav ul li a:hover {
     position: relative;
 
     margin: 0;
-    background: #F8A80C;
+    background: #513CDB;
     width: 34%;
     height: 300px;
     font-size: auto;
@@ -168,7 +170,7 @@ nav ul li a:hover {
     position: relative;
     padding: 10px;
     margin: 0;
-    background: #D97B0B;
+    background: #3569F2;
     width: 33%;
     height: 300px;
     font-size: auto;
@@ -181,7 +183,7 @@ nav ul li a:hover {
     position: relative;
     padding: 10px;
     margin: 0;
-    background: #F06201;
+    background: #33ADE8;
     width: 33%;
     height: 300px;
     font-size: auto;
@@ -277,8 +279,11 @@ footer {
     flex-shrink: 0;
     padding: 20px;
     color: white;
-    width: 100%;
+    width: 100%;    
+    
+    
 }
+
 
 footer ul {
     float: right;
