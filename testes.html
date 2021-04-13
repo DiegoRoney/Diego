@@ -3,46 +3,77 @@
 <!-- site Oficial -->
 
 <head>
-    <script src="scrp/menu.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="estilo/estilo.css">
+    <link href="imagem/dr_logo.png" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- jQuery -->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("pages/header.html");
+            $("#footer").load("pages/footer.html");
+        });
+    </script>
     <title>Pagina de testes</title>
 </head>
 
 <body>
-    <!-- -->
-    <div class="conteine-principal">
-        <header>
-            <div class="logo">
-                <a href="index.html">
-                    <img src="imagem/logo.png" alt="Logo">
-                </a>
+    <!--HEADER-->
+    <div class="sticky-top">
+        <div class="conteine-principal">
 
-            </div>
-
-            <nav>
-                <!-- MENU -->
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="portfolio.html">Portifólio</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <!--<li><a href="contato.html">Contato</a></li>-->
-                    <!--<li><a href="link.html">Designer</a></li>-->
-                </ul>
-            </nav>
-        </header>
-        <hr>
+            <div id="header"></div>
+        </div>
     </div>
-    <!-- -->
-    <div>
-        <script>
-            document.write( Menus() )
-        </script>
+    <!--HEADER-->
+
+    <!--CONTEÚDO-->
+    <div id="banner">
+        <img src="imagem/banner.jpg" />
     </div>
 
+    <div id="geral">
+        <div id="mensagem">
+            <h2 class="text-center"><strong>EM CONSTRUÇÃO :)</strong> </h2>
+            <h4 class="text-center"> Work harder, make it better.
+                Do it faster, make us stronger.
+                Be the best! </h4>
+        </div>
+
+        <div id="principal">
+
+            <a href="designer.html">
+                <div id="conteudo-1">
+                    <img src="imagem/d.png" alt="">
+                </div>
+            </a>
+
+            <a href="code.html">
+                <div id="conteudo-2">
+                    <img src="imagem/p.png" alt="">
+                </div>
+            </a>
+
+            <a href="curriculo.html">
+                <div id="conteudo-3">
+                    <img src="imagem/c.png" alt="">
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <!--CONTEÚDO-->
+
+
+    <div id="footer"></div>
 
 </body>
-<script type="text/javascript" src="scrp/menu.js"></script>
+
+
 </html>
