@@ -131,7 +131,7 @@ li {
 }
 
 #mensagem h2{
-    color:#626262;
+    color:#0400f0;
 }
 #mensagem h4, p{
     color: #c3c3c3;
@@ -352,13 +352,13 @@ footer img {
 /*album*/
 
 .photo-gallery {
-    color: #313437;
+    color: #1f2022;
     background-color: #fff;
 
 }
 
 .photo-gallery p {
-    color: #7d8285;
+    color: #424344;
 }
 
 .photo-gallery h2 {
