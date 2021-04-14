@@ -12,49 +12,29 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="stylesheet" href="estilo/estilo.css" />
   <link href="imagem/dr_logo.png" rel="shortcut icon" type="image/x-icon" />
+
+  <!-- jQuery -->
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("pages/header.html");
+      $("#footer").load("pages/footer.html");
+    });
+  </script>
+  <!-- jQuery -->
+
   <title>Portifólio</title>
 </head>
 
 <body>
-  <!--bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
-  <!--bootstrap-->
-
-
+  <!--HEADER-->
   <div class="sticky-top">
     <div class="conteine-principal">
-      <header>
 
-        <div class="logo">
-          <a href="index.html">
-            <img src="imagem/diego_logo.png" alt="Logo" />
-          </a>
-        </div>
-
-        <nav>
-          <!-- MENU -->
-          <ul>
-            <li><a href="index.html">Início</a></li>
-            <li><a href="portfolio.html">Portifólio</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-          </ul>
-        </nav>
-
+      <div id="header"></div>
     </div>
-    </header>
   </div>
-
-  <!--melhorar essa página-->
-  
-  
+  <!--HEADER-->
 
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
@@ -62,47 +42,23 @@
       <p class="lead">Corel Draw, Photoshop. Illustrator ...</p>
       <a class="btn btn-warning btn-lg" href="designer.html" role="button">Saiba mais</a>
     </div>
-  </div>  
-</div>
-
-<div class="jumbotron jumbotron-fluid">
-  <div class="container">
-    <h1 class="display-4">Programação</h1>
-    <p class="lead">bootstrap, JavaScript, Css e html.</p>
-    <a class="btn btn-warning btn-lg" href="code.html" role="button">Saiba mais</a>
   </div>
-</div>  
-</div>
+  </div>
 
-<div id="banner">
-  <img src="imagem/banner2.jpg" />
-</div>
- 
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">Programação</h1>
+      <p class="lead">bootstrap, JavaScript, Css e html.</p>
+      <a class="btn btn-warning btn-lg" href="code.html" role="button">Saiba mais</a>
+    </div>
+  </div>
+  </div>
 
-<footer class="footer navbar-fixed-bottom">
-  
-    <ul>
-      <li><a href="https://github.com/DiegoRoney/" target="_blank"><img src="images/ico/gh.png"></a></li>
-      <li><a href="https://api.whatsapp.com/send?phone=5577992028886" target="_blank"><img src="images/ico/wtt.png"></a>
-      </li>
-      <li><a href="mailto:di3go.roney@gmail.com" target="_blank"><img src="images/ico/gmail.png"></a></li>
-      <li><a href="https://www.instagram.com/rbs_diego/" target="_blank"><img src="images/ico/insta.png"></a></li>
-    </ul>
-    @Diego/2021
-  
-</footer>
+  <div id="banner">
+    <img src="imagem/banner2.jpg" />
+  </div>
 
-  <!--bootstrap-->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
-  <!--bootstrap-->
+  <div id="footer"></div>
 
 </body>
 
