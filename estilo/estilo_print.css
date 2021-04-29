@@ -17,7 +17,7 @@ body{
     color: black;
     transition: 0.5s all;
 }
-
+/*
 body.dark-mode{
     background-color: #404040;
     color: #ededed;
@@ -27,7 +27,7 @@ body.light-mode{
     background-color: #ededed;
     color: #404040;
 }
-
+*/
 .bar-top{
     height: 50px;
 }
@@ -46,7 +46,7 @@ body.light-mode{
 }
 
 .printing-btn{
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 5px;
     width: auto;
     height: 40px;
