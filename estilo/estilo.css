@@ -15,7 +15,7 @@
 header {
     width: 100%;
     height: 100px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     position: relative;
     top: 0;
 }
@@ -67,7 +67,7 @@ nav ul li {
     color: rgb(255, 255, 255);
     width: auto;
     margin: 0.5em;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-family: Impact;
 }
 
@@ -224,8 +224,6 @@ li {
 #link-portfolio a:hover {
     color: darkorange;
 }
-
-
 
 .iten-galeria .title-galeria {
     position: absolute;
