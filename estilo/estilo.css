@@ -133,7 +133,7 @@ li {
 }
 
 #mensagem h2 {
-    color: #0162ff;   
+    color: #24E5FF;   
 
 }
 
@@ -160,7 +160,7 @@ li {
     position: relative;
 
     margin: 0;
-    background: #513CDB;
+    background: #FFE10A;
     width: 34%;
     height: 300px;
     font-size: auto;
@@ -174,7 +174,7 @@ li {
     position: relative;
     padding: 10px;
     margin: 0;
-    background: #3569F2;
+    background: #FF2494;
     width: 33%;
     height: 300px;
     font-size: auto;
@@ -187,7 +187,7 @@ li {
     position: relative;
     padding: 10px;
     margin: 0;
-    background: #33ADE8;
+    background: #B31063;
     width: 33%;
     height: 300px;
     font-size: auto;
