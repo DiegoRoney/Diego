@@ -299,17 +299,20 @@ footer ul {
 footer ul li {
     display: table-cell;
     vertical-align: middle;
-    padding: 10px;
+    padding: 5px;
 }
 
 footer img {
     display: inline-block;
     height: inherit;
-    width: 80%;
+    width: 70%;
     margin: 0;
-    line-height: 60px;
+    line-height: 20px;
+    
 }
-
+footer p{
+    color: #24E5FF;
+}
 /*roda pe */
 
 
