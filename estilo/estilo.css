@@ -133,13 +133,37 @@ li {
 }
 
 #mensagem h2 {
-    color: #24E5FF;   
+    color: #24E5FF;
 
 }
 
-#mensagem h4, p {
+#mensagem h4,
+p {
     color: #a5a5a5;
 }
+
+/*barra de progresso*/
+progress {    
+    -webkit-appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background: rgb(209, 209, 209);
+    border-radius: 50px;
+    padding: 2px;
+}
+progress::-moz-progress-bar {  
+    background: #24E5FF;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 50px;
+    background:#24E5FF;
+}
+
+/*barra de progresso*/
 
 #principal {
     /*isso nao ta legal*/
@@ -308,11 +332,13 @@ footer img {
     width: 70%;
     margin: 0;
     line-height: 20px;
-    
+
 }
-footer p{
+
+footer p {
     color: #333533;
 }
+
 /*roda pe */
 
 
