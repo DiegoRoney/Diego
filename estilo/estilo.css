@@ -141,28 +141,9 @@ li {
 #mensagem h4,
 p {
     color: #a5a5a5;
-    animation: 
-    typing 3.5s steps(30, end),
-    blink-animation .5s step-end infinite;
-}
-@keyframes typing{
-    from { width: 0}
-    to {width: 100%}
+    
 }
 
-@keyframes blink-animation {
-    from, to {border-color: transparent}
-    50% { border-color: #00D8FF;}
-}
-@keyframes typing{
-    from { width: 0}
-    to {width: 100%}
-}
-
-@keyframes blink-animation {
-    from, to {border-color: transparent}
-    50% { border-color: #00D8FF;}
-}
 
 /*barra de progresso*/
 progress {    
