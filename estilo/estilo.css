@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Ubuntu:300&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
 }
 
 .conteiner-principal {
-    font-family: Verdana, Tahoma, sans-serif;
+    
     color: aliceblue;
 }
 
@@ -185,18 +185,19 @@ progress::-webkit-progress-value {
 .txt{
     writing-mode: vertical-rl;
     position: relative;
-    font-size: 30px;
+    font-size: 40px;
     padding: 5px;
     margin: 5px;
     float: left;
-   font-family: Impact, Haettenschweiler;
+    font-family: 'Bebas Neue', cursive;
 }
 
 #conteudo-1 {
+    
     overflow: hidden;
     float: left;
     position: relative;
-    padding: ;
+    padding: 10px;
     margin: 0;
     background: #FFE10A;
     width: 34%;
