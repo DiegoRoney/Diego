@@ -185,11 +185,11 @@ progress::-webkit-progress-value {
 .txt{
     writing-mode: vertical-lr;
     position: relative;
-    font-size: 50px;
+    font-size: 30px;
     padding: 5px;
     margin: 5px;
     float: left;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
 }
 
 #conteudo-1 {
