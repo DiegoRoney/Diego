@@ -183,13 +183,13 @@ progress::-webkit-progress-value {
 }
 
 .txt{
-    writing-mode: vertical-lr;
+    writing-mode: vertical-rl;
     position: relative;
     font-size: 30px;
     padding: 5px;
     margin: 5px;
     float: left;
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold';
+   font-family: Impact, Haettenschweiler;
 }
 
 #conteudo-1 {
