@@ -185,7 +185,7 @@ progress::-webkit-progress-value {
 .txt{
     writing-mode: vertical-rl;
     position: relative;
-    font-size: 40px;
+    font-size: 60px;
     padding: 5px;
     margin: 5px;
     float: left;
