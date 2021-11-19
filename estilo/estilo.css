@@ -5,7 +5,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.conteiner-principal {
+    
+    color: aliceblue;
+}
 
 header {
     width: 100%;
