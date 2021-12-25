@@ -37,16 +37,15 @@
             aria-expanded="false">Nossos Produtos </a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
 
-            <li><a class="dropdown-item" href="produtos.html">Cítricos</a></li>
-            <li><a class="dropdown-item" href="#">Laticinios</a></li>
-            <li><a class="dropdown-item" href="#">Produtos Sazonais</a></li>
+            <li><a class="dropdown-item" href="produtos.html#laticinios">Cítricos</a></li>
+            <li><a class="dropdown-item" href="produtos.html#laticinios">Laticinios</a></li>
+            <li><a class="dropdown-item" href="produtos.html#sazonais">Produtos Sazonais</a></li>
 
           </ul>
         </li>
-
-        <li class="nav-item">
-          <a class="nav-link href=" #"">Encomendas</a>
-        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contato_encomendas.html">Encomendas <span class="sr-only">(current)</span></a>
+        </li>        
       </ul>
       <!--
             <form class="d-flex">
@@ -57,13 +56,14 @@
             -->
     </div>
   </nav>
-
+ <!-- ok  -->
 
   <div class="text-center" style="padding: 1rem;">
     <h2>Nossos Produtos</h2>
     Todos nossos produtos são cultivados de forma sustentavél!
 
 <!-- citricos inserir acora assim evita criação de paginas extras para cada tipo de produto -->
+<div id="citricos"></div>
 <div class="jumbotron jumbotron-fluid" style="background-color: #03661052;">
   <div class="container">
     <h1 class="display-4">Cítricos</h1>
@@ -114,9 +114,11 @@
     </div>
   </div>
 
+  <div id="laticinios"></div>
   <div class="jumbotron jumbotron-fluid" style="background-color: #03661052;">
     <div class="container">
       <h1 class="display-4">Laticínios</h1>
+      
       <p class="lead">Disponiveis de segunda a sexta.</p>
     </div>
   </div>
@@ -151,6 +153,7 @@
     </div>
   </div>
 
+  <div id="sazonais"></div>
   <div class="jumbotron jumbotron-fluid" style="background-color: #03661052;">
     <div class="container">
       <h1 class="display-4">Sazonais</h1>
