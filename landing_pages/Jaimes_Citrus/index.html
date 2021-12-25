@@ -7,15 +7,18 @@
 <head>  
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  
+  <script type="text/javascript" src="js/confirmacao.js"></script>
+  
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
     integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-
+    
   <title>Citru's</title>
 </head>
 
 <body>
+ 
   <!-- ok  -->
   <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #167903;">
     <a class="navbar-brand" href="index.html"><img src="img/8-2-orange-png-clipart.png" width="40" height="40"
@@ -101,7 +104,12 @@
         <div class="card card-body">
           <!-- Aqui ficará um form que pegará o e-mail e telefone !ok!-->
           <!-- validar e usar mensagem para confirmação -->
-          <form>
+
+<!-- <form onSubmit="if(!confirm('concorda dos os termos?')){return false;}">
+  Também é uma opção caso seja necessario apenas a confirmação do usuario-->
+          
+          
+          <form onsubmit="return submitForm(this);">            
             <div class="form-group">
               <label for="exampleFormControlTextarea1">Nome</label>
               <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" aria-describedby="emailHelp"
@@ -123,6 +131,7 @@
             </div>
             <button type="submit" class="btn " style="background-color: #ff7301;">Enviar</button>
           </form>
+
         </div>
       </div>
     </div>
