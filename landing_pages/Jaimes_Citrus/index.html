@@ -61,11 +61,12 @@
     </div>
   </nav>
  <!-- ok  -->
-
-  <div class="text-center" style="padding: 1rem;">
-    <h2>Bem vindo!</h2>
-    Do campo para sua mesa!
+ <div class="jumbotron jumbotron-fluid  text-center" style="background-color: #ffffff;" >
+  <div class="container">
+    <h1 class="display-3">Citru's</h1>
+    <p class=""> Do campo para sua mesa!</p>
   </div>
+</div>
 
 
   <div class="container">
@@ -84,67 +85,68 @@
 
           
         </p>
-      </div>
 
-    </div>
-  </div>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">30%</h1>
+            <p class="lead">de desconto na sua primeira compra!</p>
+      
+            <p>
+              <a class="btn " data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+                aria-controls="collapseExample" style="background-color: #ff7301;">
+                Pegue seu desconto!
+              </a>
+      
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                <!-- Aqui ficará um form que pegará o e-mail e telefone !ok!-->
+                <!-- validar e usar mensagem para confirmação -->
+      
+      <!-- <form onSubmit="if(!confirm('concorda dos os termos?')){return false;}">
+        Também é uma opção caso seja necessario apenas a confirmação do usuario-->
 
-  <div class="jumbotron jumbotron-fluid">
-    <div class="container">
-      <h1 class="display-4">30%</h1>
-      <p class="lead">de desconto na sua primeira compra!</p>
-
-      <p>
-        <a class="btn " data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-          aria-controls="collapseExample" style="background-color: #ff7301;">
-          Pegue seu desconto!
-        </a>
-
-      </p>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body">
-          <!-- Aqui ficará um form que pegará o e-mail e telefone !ok!-->
-          <!-- validar e usar mensagem para confirmação -->
-
-<!-- <form onSubmit="if(!confirm('concorda dos os termos?')){return false;}">
-  Também é uma opção caso seja necessario apenas a confirmação do usuario-->
-          
-          
-          <form onsubmit="return submitForm(this);">            
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Nome</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" aria-describedby="emailHelp"
-                placeholder="Seu nome"></textarea>
+                <!--testar um modal-->
+                
+                <form onsubmit="return submitForm(this);">            
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Nome</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" aria-describedby="emailHelp"
+                      placeholder="Seu nome"></textarea>
+                  </div>
+      
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Endereço de e-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                      placeholder="Seu email">
+                    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
+                      ninguém.</small>
+                  </div>
+      
+      
+                  <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Quero receber novidades da Citru's por e-mail</label>
+                  </div>
+                  <button type="submit" class="btn " style="background-color: #ff7301;">Enviar</button>
+                </form>
+      
+              </div>
             </div>
-
-            <div class="form-group">
-              <label for="exampleInputEmail1">Endereço de e-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                placeholder="Seu email">
-              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com
-                ninguém.</small>
-            </div>
-
-
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Quero receber novidades da Citru's por e-mail</label>
-            </div>
-            <button type="submit" class="btn " style="background-color: #ff7301;">Enviar</button>
-          </form>
-
+          </div>
         </div>
       </div>
+
+      
     </div>
   </div>
 
+  
 <!--testar aqui um carrocel com as fotos das 3 variedades de laranja da propriedade-->
 
+<!--FOOTER-->
 
-
-  <!--FOOTER-->
-
-  <footer class=" text-center text-white" style="background-color: #ff7301;">
+  <footer class=" text-center text-white"  style="background-color: #ff7301;">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
       <!-- Section: Social media -->
