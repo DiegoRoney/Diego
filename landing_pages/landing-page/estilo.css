@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&family=Lato:ital,wght@1,100&family=Licorice&family=Pushster&display=swap');
 /*
 font-family: 'Lato', sans-serif;
+font-family: 'Heebo', sans-serif;
+font-family: 'Licorice', cursive;
 font-family: 'Pushster', cursive;
 **/
 *{
@@ -58,7 +60,7 @@ body{
 }
 
 .conteudo-principal-titulo{
-    font-family: 'Pushster', cursive;
+    font-family: 'Heebo', sans-serif;
     font-size: 60px;
     color: aliceblue; 
 
@@ -78,8 +80,14 @@ body{
     border-radius: 20px;
     font-family: 'Lato', sans-serif;
     color: aliceblue;
+    animation: blinker 1s linear infinite;
 }
 
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 .conteudo-principal-imagem{
     height: 400px;
     margin-top: 50px;
@@ -109,10 +117,27 @@ body{
     color: aliceblue;
 }
 
+.rodape{
+    background-color: black;
+    border-top: 0.4px solid aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+       /* justify-content: space-around;*/
+    padding: 10px;
+  
+}
 
 .rodape-imagem{
-    height: 100px;
+    height: 50px;
+    display: flex;
     
-
-
 }
+.rodape-texto{
+    display: flex;
+}
+
+
+
+  /**/
