@@ -73,19 +73,20 @@ body{
 
 .conteudo-principal-botao{
     background-color: #3102ff;
-    width: 120px;
-    height:40px;
+    font-size: 20px;
+    width: 200px;
+    height:50px;
     border: none;
     box-shadow: 4px 5px 4px black;
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: 'Lato', sans-serif;
     color: aliceblue;
-    animation: blinker 1s linear infinite;
+    animation: blinker 2s linear infinite;
 }
 
   @keyframes blinker {
     50% {
-      opacity: 0;
+      opacity: 40%;
     }
   }
 .conteudo-principal-imagem{
