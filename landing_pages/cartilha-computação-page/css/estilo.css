@@ -42,6 +42,10 @@ font-family: 'Righteous', cursive;
     text-decoration: none;
 }
 
+body {
+    background: linear-gradient(90deg, rgba(3,190,250,1) 0%, rgba(5,129,199,1) 50%, rgba(0,155,255,1) 100%, rgba(0,212,255,1) 162%);
+}
+
 /**/
 
 #banner {
@@ -101,6 +105,23 @@ font-family: 'Righteous', cursive;
   */
 
 
+  .menu {
+    min-height: 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+.menu-auxiliar {
+    background-color:orange;
+}
+
+.conteudo {
+    height: 2000px;
+}
+
 #h2 {
     font-family: 'Righteous', cursive;
 }
@@ -110,7 +131,7 @@ font-family: 'Righteous', cursive;
 
 
 .cabeçalho {
-    background-color: #2aa4d8;
+    background-color: #2aa4d800;
     display: flex;
     z-index: 20;
     flex-direction: row;
