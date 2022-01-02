@@ -43,8 +43,8 @@ font-family: 'Righteous', cursive;
 }
 
 body {
-    background: linear-gradient(90deg, rgba(3,190,250,1) 0%, rgba(5,129,199,1) 50%, rgba(0,155,255,1) 100%, rgba(0,212,255,1) 162%);
-    
+    background: linear-gradient(90deg, rgba(3, 190, 250, 1) 0%, rgba(5, 129, 199, 1) 50%, rgba(0, 155, 255, 1) 100%, rgba(0, 212, 255, 1) 162%);
+
 }
 
 
@@ -61,25 +61,25 @@ body {
 
 #banner img {
     width: 100%;
-    
+
     margin-bottom: 0;
-    
-    
+
+
 }
 
 .titulo {
     width: 400px;
     height: 50px;
-    position: absolute;     
-    background-color: rgba(255, 7, 7, 0); 
-    color: #D9B70D; 
-    font-size: xx-large;      
+    position: absolute;
+    background-color: rgba(255, 7, 7, 0);
+    color: #D9B70D;
+    font-size: xx-large;
     top: 50%;
     left: 10%;
 }
 
-   
-      /*  
+
+/*  
     @media screen and (max-width: 767px) {
         .quadrado{
         top: 30%;
@@ -142,6 +142,7 @@ body {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 /*
 .cabeçalho-redes{
     
@@ -179,11 +180,11 @@ body {
       
 }
 */
-.btn{
+.btn {
     background-color: #000000;
     font-size: 20px;
     width: 200px;
-    height:50px;
+    height: 50px;
     border: none;
     box-shadow: 4px 5px 4px black;
     border-radius: 10px;
@@ -192,11 +193,12 @@ body {
     animation: blinker 2s linear infinite;
 }
 
-  @keyframes blinker {
+@keyframes blinker {
     50% {
-      opacity: 40%;
+        opacity: 40%;
     }
-  }
+}
+
 .titulo {
     flex-wrap: wrap;
     float: inline-start;
@@ -255,10 +257,11 @@ body {
 
 }
 
-.jumbotron{
-     
-    margin-top: -40px;;
-    
+.jumbotron {
+
+    margin-top: -40px;
+    ;
+
 }
 
 .mais-info {
@@ -269,7 +272,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
-    margin-top: -40px;    
+    margin-top: -40px;
     justify-content: space-between;
     justify-content: center;
 
@@ -281,7 +284,7 @@ são alteradas em style dentro do card*/
 
 
 .mais-info img {
-    
+
     width: 80%;
     flex-wrap: wrap;
 }
