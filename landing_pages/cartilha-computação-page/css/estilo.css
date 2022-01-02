@@ -44,7 +44,10 @@ font-family: 'Righteous', cursive;
 
 body {
     background: linear-gradient(90deg, rgba(3,190,250,1) 0%, rgba(5,129,199,1) 50%, rgba(0,155,255,1) 100%, rgba(0,212,255,1) 162%);
+    
 }
+
+
 
 /**/
 
@@ -105,22 +108,7 @@ body {
   */
 
 
-  .menu {
-    min-height: 50px;
-    position: fixed;
-    right: 0;
-    top: 0;
-    left: 0;
-    background-color: blue;
-}
 
-.menu-auxiliar {
-    background-color:orange;
-}
-
-.conteudo {
-    height: 2000px;
-}
 
 #h2 {
     font-family: 'Righteous', cursive;
@@ -266,6 +254,12 @@ body {
 
 }
 
+.jumbotron{
+     
+    margin-top: -40px;;
+    
+}
+
 .servicos {
     background-color: #BF8D30;
     width: 100%;
@@ -274,6 +268,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
+    margin-top: -40px;    
     justify-content: space-between;
     justify-content: center;
 
@@ -282,7 +277,6 @@ body {
 
 /* as cores dos itens em serviços, 
 são alteradas em style dentro do card*/
-
 
 
 .servicos img {
